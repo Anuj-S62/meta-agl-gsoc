@@ -1,8 +1,6 @@
 SUMMARY = "Flutter GSoC Task"
 DESCRIPTION = "Flutter GSoC Task of Automotive Grade Linux"
 
-
-
 SECTION = "graphics"
 
 LICENSE = "Apache-2.0"
@@ -23,8 +21,3 @@ PUBSPEC_APPNAME = "gsoctask"
 FLUTTER_APPLICATION_INSTALL_PREFIX = "/flutter"
 FLUTTER_BUILD_ARGS = "bundle -v"
 
-# agl-app
-#########
-AGL_APP_TEMPLATE = "agl-app-flutter"
-AGL_APP_ID = "gsoctask"
-AGL_APP_NAME = "GSoCTask"
