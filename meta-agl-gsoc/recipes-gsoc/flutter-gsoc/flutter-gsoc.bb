@@ -21,3 +21,10 @@ PUBSPEC_APPNAME = "gsoctask"
 FLUTTER_APPLICATION_INSTALL_PREFIX = "/flutter"
 FLUTTER_BUILD_ARGS = "bundle -v"
 
+#########
+AGL_APP_TEMPLATE = "agl-app-flutter"
+AGL_APP_ID = "gsoctask"
+AGL_APP_NAME = "GsocTask"
+
+
+    
