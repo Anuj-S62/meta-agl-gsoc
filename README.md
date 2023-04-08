@@ -5,7 +5,7 @@ custom layer for test app
 To run the layer
 
 1. Downlaod Agl software and Initializing the build environment:
-"[docs.automotivelinux.org]"
+[here](docs.automotivelinux.org)
 
 2. Run the script: 
 ```shell
