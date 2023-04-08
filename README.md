@@ -6,7 +6,7 @@ To run the layer
 
 1. Initializing the build environment:
 
-2. Run the script:
+2. Run the script: \
 $ cd AGL/master
 $ source meta-agl/scripts/aglsetup.sh -m qemux86-64 -b build-gsoc-task agl-demo agl-devel
 
