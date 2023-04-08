@@ -12,11 +12,10 @@ SRC_URI = "git://github.com/Anuj-S62/flutterGsocTask.git;protocol=https;branch=m
 SRCREV = "67bd0667a693485d312153476b7524df6d963c76"
 S = "${WORKDIR}/git"
 
-
 inherit agl-app flutter-app
 
 # flutter-app
-#############
+############
 PUBSPEC_APPNAME = "gsoctask"
 FLUTTER_APPLICATION_INSTALL_PREFIX = "/flutter"
 FLUTTER_BUILD_ARGS = "bundle -v"
