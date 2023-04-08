@@ -8,24 +8,30 @@ To run the layer
 
 2. Run the script: 
 ```shell
-$ cd AGL/master 
-$ source meta-agl/scripts/aglsetup.sh -m qemux86-64 -b build-gsoc-task agl-demo agl-devel 
+cd AGL/master
+```
+```shell
+source meta-agl/scripts/aglsetup.sh -m qemux86-64 -b build-gsoc-task agl-demo agl-devel 
 ```
 
 3. Enable meta-agl-gsoc: 
 ```shell
-$ cd AGL/master/build-gsoc-task 
-$ bitbake-layers add-layer "path to meta-agl-gsoc" 
+cd AGL/master/build-gsoc-task 
+```
+```shell
+bitbake-layers add-layer "path to meta-agl-gsoc" 
 ```
 4. Build the image: 
 ```shell
-$ bitbake agl-demo-platform-gsoc-task 
+bitbake agl-demo-platform-gsoc-task 
 ```
 
 5. Deploy the image: 
 ```shell
-$ cd AGL/master/build-gsoc-task 
-$ runqemu kvm serialstdio slirp publicvnc 
+cd AGL/master/build-gsoc-task 
+```
+```shell
+runqemu kvm serialstdio slirp publicvnc 
 ```
 
 6. Deploy the graphics: \
