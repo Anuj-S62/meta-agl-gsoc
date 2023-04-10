@@ -46,6 +46,6 @@ $ runqemu kvm serialstdio slirp publicvnc
   ```
   
   
-En![Screenshot from 2023-04-10 23-28-08](https://user-images.githubusercontent.com/96018337/230962358-cebb0382-9c73-424d-81cc-424706b90bd8.png)
+![Screenshot from 2023-04-10 23-28-08](https://user-images.githubusercontent.com/96018337/230962358-cebb0382-9c73-424d-81cc-424706b90bd8.png)
 ![Screenshot from 2023-04-10 23-25-28](https://user-images.githubusercontent.com/96018337/230962082-9d58384e-b75d-4fe8-a8ef-0c3b9faeff93.png)
 
