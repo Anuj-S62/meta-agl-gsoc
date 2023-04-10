@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=86d3f3a95c324c9479bd8986968f4327"
 
 SRC_URI = "git://github.com/Anuj-S62/flutterGsocTask.git;protocol=https;branch=master"
 
-SRCREV = "67bd0667a693485d312153476b7524df6d963c76"
+SRCREV = "32965e8de61ccc04ff405358982c54fe2725ae90"
 S = "${WORKDIR}/git"
 
 inherit agl-app flutter-app
