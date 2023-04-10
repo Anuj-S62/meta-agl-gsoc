@@ -8,7 +8,7 @@ To run the layer
 [here](https://docs.automotivelinux.org)
 
 2. Run the script: 
-```shell
+```bash
 $ cd AGL/master
 $ source meta-agl/scripts/aglsetup.sh -m qemux86-64 -b build-gsoc-task agl-demo agl-devel 
 ```
